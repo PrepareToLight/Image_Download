@@ -30,8 +30,5 @@ class GetImage:
 
 def test():
     img = GetImage("https://sbanaszek.w3spaces.com/441c0ddc_1.png")
-    img.download()
-
-if __name__ == "__main__":
-    #test()
-    pass
+    check = img.download()
+    return check
